@@ -20,7 +20,7 @@ p {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   grid-template-rows: repeat(2, 1fr);
-  border: 5px solid snow;
+ 
 }
 
 .grid-column-one {
@@ -29,8 +29,8 @@ p {
   width: 100%;
   height: 400px;
   overflow: scroll scroll;
-  border-bottom: 5px solid snow;
-  border-right: 5px solid snow;
+
+  border:5px solid snow;
 }
 
 .grid-column-two {
@@ -43,6 +43,7 @@ p {
   background-size: cover;
   border-bottom: 5px solid snow;
   border-right:5px solid snow;
+  border-top: 5px solid snow;
 }
 
 .column-one-row-two {
@@ -55,6 +56,7 @@ p {
   background-position: center;
   border-bottom: 5px solid snow;
   border-right: 5px solid snow;
+  border-left: 5x solid snow;
 }
 
 .column-three-row-two {
@@ -81,4 +83,6 @@ p {
 
 .column-three-row-one {
   border-bottom: 5px solid snow;
+  border-right: 5px solid snow;
+  border-top: 5px solid snow;
 }
